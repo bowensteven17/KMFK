@@ -1,0 +1,5 @@
+selenium
+pandas
+openpyxl
+undetected-chromedriver>=3.5.4
+selenium>=4.15.0
