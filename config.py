@@ -22,10 +22,12 @@ os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
 
 # --- Selenium WebDriver Options ---
-def get_chrome_options():
+def get_chrome_options(headless=None):
     """Get Chrome options for regular Selenium WebDriver"""
     chrome_options = ChromeOptions()
-    if HEADLESS:
+    # Use passed headless parameter, fallback to config HEADLESS
+    use_headless = headless if headless is not None else HEADLESS
+    if use_headless:
         chrome_options.add_argument("--headless=new")  # New headless mode
         chrome_options.add_argument("--disable-gpu")
 
@@ -55,9 +57,14 @@ def get_chrome_options():
 
     return chrome_options
 
-def get_stealth_chrome_options():
+def get_stealth_chrome_options(headless=None):
     """Get options for undetected-chromedriver (stealth mode)"""
     options = uc.ChromeOptions()
+
+    # Use passed headless parameter, fallback to config HEADLESS
+    use_headless = headless if headless is not None else HEADLESS
+    if use_headless:
+        options.add_argument("--headless=new")
 
     # Download preferences
     prefs = {
@@ -145,15 +152,22 @@ INPUT_END_DATE = ("id", "endDate")   # Assuming input has this ID
 BUTTON_SEARCH = ("id", "searchBtn")  # Assuming button has this ID
 BUTTON_EXCEL_DOWNLOAD = ("xpath", "//img[@alt='엑셀'] | //a[contains(@onclick, 'fn_excel') or contains(text(), '엑셀다운로드')]") # General Excel icon/button
 
-# Korean Text for dropdown options (verify these are exact matches on the website)
-# Fund Type options
+# Korean Text for dropdown options (VERIFIED from actual website screenshot)
+# Fund Type options - These must match EXACTLY what appears in the dropdown
 FUND_TYPES = {
     'Equity Funds': '주식형',
-    'Hybrid Equity': '혼합형주식',
-    'Hybrid Bond': '혼합형채권',
-    'Bond': '채권형',
-    'Money Market': 'MMF',
-    'Hybrid Asset': '혼합자산' # This is the "last category in dropdown (14th option)"
+    'Hybrid Equity': '혼합주식형',  # CORRECTED: was '혼합형주식'
+    'Hybrid Bond': '혼합채권형',    # CORRECTED: was '혼합형채권'
+    'Bond': '채권형',               # VERIFIED: correct
+    'Money Market': '단기금융',     # CORRECTED: was 'MMF'
+    'Investment Contract': '투자계약',  # From dropdown
+    'Derivatives': '파생상품',     # From dropdown
+    'Real Estate': '부동산',       # From dropdown
+    'Real': '실물',               # From dropdown (Real/Physical assets)
+    'Fund of Funds': '재간접',    # From dropdown (Fund of Funds)
+    'Variable Insurance': '변액보험',  # From dropdown
+    'Special Asset': '특별자산',   # From dropdown
+    'Hybrid Asset': '혼합자산'      # VERIFIED: Exists in dropdown (requires scrolling to see)
 }
 # Region options
 REGIONS = {
@@ -246,6 +260,16 @@ DATASET_CONFIGS = [
         'output_name': 'DomesticBond'
     },
     {
+        'name': 'RawDataMoneyMarket',
+        'fund_type_korean': FUND_TYPES['Money Market'],
+        'fund_type_index': 5, # 6th option, so index 5
+        'region_korean': REGIONS['All/Total'],
+        'region_index': 0,
+        'time_window_years': 5,
+        'fund_universe_index': 0,
+        'output_name': 'MoneyMarket'
+    },
+    {
         'name': 'RawDataHybridAsset',
         'fund_type_korean': FUND_TYPES['Hybrid Asset'],
         'fund_type_index': 13, # This is a guess for the "last category in dropdown (14th option)"
@@ -264,16 +288,6 @@ DATASET_CONFIGS = [
         'time_window_years': 5,
         'fund_universe_index': 0,
         'output_name': 'DomesticHybridAsset'
-    },
-    {
-        'name': 'RawDataMoneyMarket',
-        'fund_type_korean': FUND_TYPES['Money Market'],
-        'fund_type_index': 5, # 6th option, so index 5
-        'region_korean': REGIONS['All/Total'],
-        'region_index': 0,
-        'time_window_years': 5,
-        'fund_universe_index': 0,
-        'output_name': 'MoneyMarket'
     }
 ]
 

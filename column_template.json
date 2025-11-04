@@ -1,0 +1,574 @@
+[
+  {
+    "code": "KMFK.EQUITY.TOTALASSET.M",
+    "description": "Equity: Total assets"
+  },
+  {
+    "code": "KMFK.EQUITY.STOCK.AMOUNT.M",
+    "description": "Equity: Stock: Amount"
+  },
+  {
+    "code": "KMFK.EQUITY.STOCK.WEIGHT.M",
+    "description": "Equity: Stock: Weight"
+  },
+  {
+    "code": "KMFK.EQUITY.BONDS.AMOUNT.M",
+    "description": "Equity: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.EQUITY.BONDS.WEIGHT.M",
+    "description": "Equity: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.EQUITY.CP.AMOUNT.M",
+    "description": "Equity: CP: Amount"
+  },
+  {
+    "code": "KMFK.EQUITY.CP.WEIGHT.M",
+    "description": "Equity: CP: Weight"
+  },
+  {
+    "code": "KMFK.EQUITY.DEPOSIT.AMOUNT.M",
+    "description": "Equity: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.EQUITY.DEPOSIT.WEIGHT.M",
+    "description": "Equity: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.EQUITY.CALLLOAN.AMOUNT.M",
+    "description": "Equity: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.EQUITY.CALLLOAN.WEIGHT.M",
+    "description": "Equity: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.EQUITY.OTHER.AMOUNT.M",
+    "description": "Equity: Others: Amount"
+  },
+  {
+    "code": "KMFK.EQUITY.OTHER.WEIGHT.M",
+    "description": "Equity: Others: Weight"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.TOTALASSET.M",
+    "description": "Domestic Equity: Total assets"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.STOCK.AMOUNT.M",
+    "description": "Domestic Equity: Stock: Amount"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.STOCK.WEIGHT.M",
+    "description": "Domestic Equity: Stock: Weight"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.BONDS.AMOUNT.M",
+    "description": "Domestic Equity: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.BONDS.WEIGHT.M",
+    "description": "Domestic Equity: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.CP.AMOUNT.M",
+    "description": "Domestic Equity: CP: Amount"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.CP.WEIGHT.M",
+    "description": "Domestic Equity: CP: Weight"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.DEPOSIT.AMOUNT.M",
+    "description": "Domestic Equity: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.DEPOSIT.WEIGHT.M",
+    "description": "Domestic Equity: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.CALLLOAN.AMOUNT.M",
+    "description": "Domestic Equity: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.CALLLOAN.WEIGHT.M",
+    "description": "Domestic Equity: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.OTHER.AMOUNT.M",
+    "description": "Domestic Equity: Others: Amount"
+  },
+  {
+    "code": "KMFK.DOMESTICEQUITY.OTHER.WEIGHT.M",
+    "description": "Domestic Equity: Others: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.TOTALASSET.M",
+    "description": "Hybrid Equity: Total assets"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.STOCK.AMOUNT.M",
+    "description": "Hybrid Equity: Stock: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.STOCK.WEIGHT.M",
+    "description": "Hybrid Equity: Stock: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.BONDS.AMOUNT.M",
+    "description": "Hybrid Equity: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.BONDS.WEIGHT.M",
+    "description": "Hybrid Equity: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.CP.AMOUNT.M",
+    "description": "Hybrid Equity: CP: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.CP.WEIGHT.M",
+    "description": "Hybrid Equity: CP: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.DEPOSIT.AMOUNT.M",
+    "description": "Hybrid Equity: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.DEPOSIT.WEIGHT.M",
+    "description": "Hybrid Equity: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.CALLLOAN.AMOUNT.M",
+    "description": "Hybrid Equity: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.CALLLOAN.WEIGHT.M",
+    "description": "Hybrid Equity: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.OTHER.AMOUNT.M",
+    "description": "Hybrid Equity: Others: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDEQUITY.OTHER.WEIGHT.M",
+    "description": "Hybrid Equity: Others: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.TOTALASSET.M",
+    "description": "Hybrid Domestic Equity: Total assets"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.STOCK.AMOUNT.M",
+    "description": "Hybrid Domestic Equity: Stock: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.STOCK.WEIGHT.M",
+    "description": "Hybrid Domestic Equity: Stock: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.BONDS.AMOUNT.M",
+    "description": "Hybrid Domestic Equity: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.BONDS.WEIGHT.M",
+    "description": "Hybrid Domestic Equity: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.CP.AMOUNT.M",
+    "description": "Hybrid Domestic Equity: CP: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.CP.WEIGHT.M",
+    "description": "Hybrid Domestic Equity: CP: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.DEPOSIT.AMOUNT.M",
+    "description": "Hybrid Domestic Equity: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.DEPOSIT.WEIGHT.M",
+    "description": "Hybrid Domestic Equity: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.CALLLOAN.AMOUNT.M",
+    "description": "Hybrid Domestic Equity: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.CALLLOAN.WEIGHT.M",
+    "description": "Hybrid Domestic Equity: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.OTHER.AMOUNT.M",
+    "description": "Hybrid Domestic Equity: Others: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMEQUITY.OTHER.WEIGHT.M",
+    "description": "Hybrid Domestic Equity: Others: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.TOTALASSET.M",
+    "description": "Hybrid Bond: Total assets"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.STOCK.AMOUNT.M",
+    "description": "Hybrid Bond: Stock: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.STOCK.WEIGHT.M",
+    "description": "Hybrid Bond: Stock: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.BONDS.AMOUNT.M",
+    "description": "Hybrid Bond: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.BONDS.WEIGHT.M",
+    "description": "Hybrid Bond: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.CP.AMOUNT.M",
+    "description": "Hybrid Bond: CP: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.CP.WEIGHT.M",
+    "description": "Hybrid Bond: CP: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.DEPOSIT.AMOUNT.M",
+    "description": "Hybrid Bond: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.DEPOSIT.WEIGHT.M",
+    "description": "Hybrid Bond: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.CALLLOAN.AMOUNT.M",
+    "description": "Hybrid Bond: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.CALLLOAN.WEIGHT.M",
+    "description": "Hybrid Bond: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.OTHER.AMOUNT.M",
+    "description": "Hybrid Bond: Others: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDBOND.OTHER.WEIGHT.M",
+    "description": "Hybrid Bond: Others: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.TOTALASSET.M",
+    "description": "Hybrid Domestic Bond: Total assets"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.STOCK.AMOUNT.M",
+    "description": "Hybrid Domestic Bond: Stock: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.STOCK.WEIGHT.M",
+    "description": "Hybrid Domestic Bond: Stock: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.BONDS.AMOUNT.M",
+    "description": "Hybrid Domestic Bond: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.BONDS.WEIGHT.M",
+    "description": "Hybrid Domestic Bond: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.CP.AMOUNT.M",
+    "description": "Hybrid Domestic Bond: CP: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.CP.WEIGHT.M",
+    "description": "Hybrid Domestic Bond: CP: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.DEPOSIT.AMOUNT.M",
+    "description": "Hybrid Domestic Bond: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.DEPOSIT.WEIGHT.M",
+    "description": "Hybrid Domestic Bond: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.CALLLOAN.AMOUNT.M",
+    "description": "Hybrid Domestic Bond: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.CALLLOAN.WEIGHT.M",
+    "description": "Hybrid Domestic Bond: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.OTHER.AMOUNT.M",
+    "description": "Hybrid Domestic Bond: Others: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDDOMBOND.OTHER.WEIGHT.M",
+    "description": "Hybrid Domestic Bond: Others: Weight"
+  },
+  {
+    "code": "KMFK.BOND.TOTALASSET.M",
+    "description": "Bond: Total assets"
+  },
+  {
+    "code": "KMFK.BOND.STOCK.AMOUNT.M",
+    "description": "Bond: Stock: Amount"
+  },
+  {
+    "code": "KMFK.BOND.STOCK.WEIGHT.M",
+    "description": "Bond: Stock: Weight"
+  },
+  {
+    "code": "KMFK.BOND.BONDS.AMOUNT.M",
+    "description": "Bond: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.BOND.BONDS.WEIGHT.M",
+    "description": "Bond: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.BOND.CP.AMOUNT.M",
+    "description": "Bond: CP: Amount"
+  },
+  {
+    "code": "KMFK.BOND.CP.WEIGHT.M",
+    "description": "Bond: CP: Weight"
+  },
+  {
+    "code": "KMFK.BOND.DEPOSIT.AMOUNT.M",
+    "description": "Bond: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.BOND.DEPOSIT.WEIGHT.M",
+    "description": "Bond: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.BOND.CALLLOAN.AMOUNT.M",
+    "description": "Bond: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.BOND.CALLLOAN.WEIGHT.M",
+    "description": "Bond: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.BOND.OTHER.AMOUNT.M",
+    "description": "Bond: Others: Amount"
+  },
+  {
+    "code": "KMFK.BOND.OTHER.WEIGHT.M",
+    "description": "Bond: Others: Weight"
+  },
+  {
+    "code": "KMFK.DOMBOND.TOTALASSET.M",
+    "description": "Domestic Bond: Total assets"
+  },
+  {
+    "code": "KMFK.DOMBOND.STOCK.AMOUNT.M",
+    "description": "Domestic Bond: Stock: Amount"
+  },
+  {
+    "code": "KMFK.DOMBOND.STOCK.WEIGHT.M",
+    "description": "Domestic Bond: Stock: Weight"
+  },
+  {
+    "code": "KMFK.DOMBOND.BONDS.AMOUNT.M",
+    "description": "Domestic Bond: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.DOMBOND.BONDS.WEIGHT.M",
+    "description": "Domestic Bond: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.DOMBOND.CP.AMOUNT.M",
+    "description": "Domestic Bond: CP: Amount"
+  },
+  {
+    "code": "KMFK.DOMBOND.CP.WEIGHT.M",
+    "description": "Domestic Bond: CP: Weight"
+  },
+  {
+    "code": "KMFK.DOMBOND.DEPOSIT.AMOUNT.M",
+    "description": "Domestic Bond: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.DOMBOND.DEPOSIT.WEIGHT.M",
+    "description": "Domestic Bond: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.DOMBOND.CALLLOAN.AMOUNT.M",
+    "description": "Domestic Bond: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.DOMBOND.CALLLOAN.WEIGHT.M",
+    "description": "Domestic Bond: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.DOMBOND.OTHER.AMOUNT.M",
+    "description": "Domestic Bond: Others: Amount"
+  },
+  {
+    "code": "KMFK.DOMBOND.OTHER.WEIGHT.M",
+    "description": "Domestic Bond: Others: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.TOTALASSET.M",
+    "description": "Hybrid Asset: Total assets"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.STOCK.AMOUNT.M",
+    "description": "Hybrid Asset: Stock: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.STOCK.WEIGHT.M",
+    "description": "Hybrid Asset: Stock: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.BONDS.AMOUNT.M",
+    "description": "Hybrid Asset: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.BONDS.WEIGHT.M",
+    "description": "Hybrid Asset: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.CP.AMOUNT.M",
+    "description": "Hybrid Asset: CP: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.CP.WEIGHT.M",
+    "description": "Hybrid Asset: CP: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.DEPOSIT.AMOUNT.M",
+    "description": "Hybrid Asset: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.DEPOSIT.WEIGHT.M",
+    "description": "Hybrid Asset: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.CALLLOAN.AMOUNT.M",
+    "description": "Hybrid Asset: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.CALLLOAN.WEIGHT.M",
+    "description": "Hybrid Asset: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.OTHER.AMOUNT.M",
+    "description": "Hybrid Asset: Others: Amount"
+  },
+  {
+    "code": "KMFK.HYBRIDASSET.OTHER.WEIGHT.M",
+    "description": "Hybrid Asset: Others: Weight"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.TOTALASSET.M",
+    "description": "Domestic Hybrid Asset: Total assets"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.STOCK.AMOUNT.M",
+    "description": "Domestic Hybrid Asset: Stock: Amount"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.STOCK.WEIGHT.M",
+    "description": "Domestic Hybrid Asset: Stock: Weight"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.BONDS.AMOUNT.M",
+    "description": "Domestic Hybrid Asset: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.BONDS.WEIGHT.M",
+    "description": "Domestic Hybrid Asset: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.CP.AMOUNT.M",
+    "description": "Domestic Hybrid Asset: CP: Amount"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.CP.WEIGHT.M",
+    "description": "Domestic Hybrid Asset: CP: Weight"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.DEPOSIT.AMOUNT.M",
+    "description": "Domestic Hybrid Asset: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.DEPOSIT.WEIGHT.M",
+    "description": "Domestic Hybrid Asset: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.CALLLOAN.AMOUNT.M",
+    "description": "Domestic Hybrid Asset: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.CALLLOAN.WEIGHT.M",
+    "description": "Domestic Hybrid Asset: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.OTHER.AMOUNT.M",
+    "description": "Domestic Hybrid Asset: Others: Amount"
+  },
+  {
+    "code": "KMFK.DOMHYBRIDASSET.OTHER.WEIGHT.M",
+    "description": "Domestic Hybrid Asset: Others: Weight"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.TOTALASSET.M",
+    "description": "Money Market: Total assets"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.STOCK.AMOUNT.M",
+    "description": "Money Market: Stock: Amount"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.STOCK.WEIGHT.M",
+    "description": "Money Market: Stock: Weight"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.BONDS.AMOUNT.M",
+    "description": "Money Market: Bonds: Amount"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.BONDS.WEIGHT.M",
+    "description": "Money Market: Bonds: Weight"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.CP.AMOUNT.M",
+    "description": "Money Market: CP: Amount"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.CP.WEIGHT.M",
+    "description": "Money Market: CP: Weight"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.DEPOSIT.AMOUNT.M",
+    "description": "Money Market: Deposit: Amount"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.DEPOSIT.WEIGHT.M",
+    "description": "Money Market: Deposit: Weight"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.CALLLOAN.AMOUNT.M",
+    "description": "Money Market: Call loan: Amount"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.CALLLOAN.WEIGHT.M",
+    "description": "Money Market: Call loan: Weight"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.OTHER.AMOUNT.M",
+    "description": "Money Market: Others: Amount"
+  },
+  {
+    "code": "KMFK.MONEYMARKET.OTHER.WEIGHT.M",
+    "description": "Money Market: Others: Weight"
+  }
+]
